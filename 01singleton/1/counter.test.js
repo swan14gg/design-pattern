@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import counter from "./counter.mjs";
+import counter from "./counter";
 
 test("incrementing 1 time should be 1", () => {
   counter.increment();
